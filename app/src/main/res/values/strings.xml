@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FilmListApp</string>
+    <string name="Главная">Главная</string>
+    <string name="Избранное">Избранное</string>
+</resources>

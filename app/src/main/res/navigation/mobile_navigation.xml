@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/filmListFragment">
+
+    <fragment
+        android:id="@+id/filmListFragment"
+        android:name="com.example.filmlistapp.presentation.fragments.films.filmlist.FilmListFragment"
+        android:label="fragment_film_list"
+        tools:layout="@layout/fragment_film_list" />
+    <fragment
+        android:id="@+id/filmFavouriteListFragment"
+        android:name="com.example.filmlistapp.presentation.fragments.films.filmfavouritelist.FilmFavouriteListFragment"
+        android:label="fragment_film_favourite_list"
+        tools:layout="@layout/fragment_film_favourite_list" />
+</navigation>
